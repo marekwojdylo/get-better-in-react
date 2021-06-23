@@ -1,0 +1,66 @@
+.my-btn {
+    background: green;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.single-btn {
+    background-color: #d8d9db;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    border: solid 1px black;
+}
+
+.single-btn:hover {
+    background-color: #f7f7f7; 
+}
+
+.single-btn-function {
+    background-color: #DF974C;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    border: solid 1px black;
+}
+.single-btn-function:hover {
+    background-color: #f4bf87;
+}
+
+.double-btn {
+    background-color: #d8d9db;
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+    border: solid 1px black;
+}
+.double-btn:hover {
+    background-color: #f7f7f7; 
+}
+.triple-btn {
+    background-color: #d8d9db;
+    width: 300px;
+    height: 100px;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    border: solid 1px black;
+}
+.triple-btn:hover {
+    background-color: #f7f7f7; 
+}
+.result-screen {
+    background-color: black;
+    width: 400px;
+    height: 70px;
+    color: white;
+    text-align: right;
+    padding: 0 20px 0 0;
+    font-size: 30px;
+    border: none;
+}

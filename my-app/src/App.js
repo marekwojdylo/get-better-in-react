@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import { CalcBtn } from './CalcBtn';
+import { CalcBtnDouble } from './CalcBtnDouble';
+import { CalcBtnTriple } from './CalcBtnTriple';
+import { ResultScreen } from './ResultScreen';
+import { CalcBtnFunction } from './CalcBtnFunction';
+import {MyButton} from './MyButton';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export const App = () => {
+  return <div>
+  <div>
+  <ResultScreen text="Result" />
+  </div>  
+  <div> 
+  <CalcBtnDouble text="C" />
+  <CalcBtn text="<-" />
+  <CalcBtnFunction text="÷" />
+  </div>
+  <div> 
+  <CalcBtn text="7" />
+  <CalcBtn text="8" />
+  <CalcBtn text="9" />
+  <CalcBtnFunction text="×" />
+  </div>
+  <div> 
+  <CalcBtn text="4" />
+  <CalcBtn text="5" />
+  <CalcBtn text="6" />
+  <CalcBtnFunction text="−" />
+  </div>
+  <div> 
+  <CalcBtn text="1" />
+  <CalcBtn text="2" />
+  <CalcBtn text="3" />
+  <CalcBtnFunction text="+" />
+  </div>
+  <div> 
+  <CalcBtnTriple text="0" />
+  <CalcBtnFunction text="=" />
+  </div>
+  </div> 
+  
 }
 
-export default App;

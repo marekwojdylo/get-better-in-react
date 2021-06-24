@@ -3,7 +3,6 @@ import { CalcBtnDouble } from './CalcBtnDouble';
 import { CalcBtnTriple } from './CalcBtnTriple';
 import { ResultScreen } from './ResultScreen';
 import { CalcBtnFunction } from './CalcBtnFunction';
-import {MyButton} from './MyButton';
 
 export const App = () => {
   return <div>

@@ -58,9 +58,11 @@
     background-color: black;
     width: 400px;
     height: 70px;
+    font-family: monospace;
+    font-weight: lighter;
     color: white;
     text-align: right;
     padding: 0 20px 0 0;
-    font-size: 30px;
+    font-size: 40px;
     border: none;
 }
